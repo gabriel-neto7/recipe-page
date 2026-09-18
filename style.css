@@ -2,6 +2,15 @@ html{
     font-family: Alice;
 }
 
+body {
+    background-image: url(./assets/main-image.png);
+    background-size: cover;
+}
+
+
+
+
+
 .box {
     background-color: #F0E8C2;
     width: 800px;
