@@ -8,6 +8,9 @@ html{
     height: 1440px;
     margin: auto;
     border-radius: 24px;
+    padding-top: 24px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .text {
@@ -19,6 +22,7 @@ h1{
     font-size: 40px;
     line-height: 140%;
     font-weight: 400;
+    color: #291B1A;
 
 }
 
@@ -26,12 +30,14 @@ h2{
     font-size: 24px;
     line-height: 150%;
     font-weight: 400;
+    color: #291B1A;
 }
 
 p {
     font-size: 16px;
     line-height: 150%;
     font-weight: 160;
+    color: #573A37;
 }
 
 .made-by {
@@ -39,8 +45,15 @@ p {
     justify-content: center;
 }
 
+.made-by {
+    color: #F0E8C2;
+}
+
+
 .box img {
+    display: block;
     width: 752px;
+    margin: 0 auto;
     border-radius: 16px;
 }
 
