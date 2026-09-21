@@ -1,9 +1,9 @@
-html{
+:root{
     font-family: Alice;
 }
 
 body {
-    background-image: url(./assets/main-image.png);
+    background-image: url(./assets/bg-image.png);
     background-size: cover;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 
-h1{
+h1 , h2{
     font-size: 40px;
     line-height: 140%;
     font-weight: 400;
@@ -45,14 +45,20 @@ p {
     color: #573A37;
 }
 
-.made-by {
+footer {
     display: flex;
     justify-content: center;
+    color: #F0E8C2;
+    padding-bottom: 48px;
+    padding-top: 24px;
 }
 
-.made-by {
-    color: #F0E8C2;
+footer img {
+    vertical-align: middle;
+    padding-left: 4px;
+    padding-right: 4px;
 }
+
 
 
 .box img {
